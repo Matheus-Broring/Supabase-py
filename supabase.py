@@ -85,7 +85,7 @@ def profile():
 if __name__ == "__main__":
     app.run(debug=True)
 
-    #SQL Comandos para configurar o esquema do banco de dados
+#SQL Comandos para configurar o esquema do banco de dados
 
 # CREATE TABLE profiles (
 #   id UUID REFERENCES auth.users(id) PRIMARY KEY,
